@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+        body {
+            font-family: "Rajdhani", sans-serif;
+        }
+
+        .Rubiko {
+            font-family: "Rubik", sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <!-- Hero Section -->
+        <section class="container mx-auto py-6 bg-[#060606] px-4">
+            <div>
+                <div class="flex flex-col lg:flex-row items-center justify-between gap-5">
+                    <!-- Left Sidebar -->
+                    <div
+                        class="flex flex-col justify-center items-center bg-[#141414] w-full lg:w-96 h-auto lg:h-[560px] p-5 rounded-2xl">
+                        <div>
+                            <img class="w-32 mb-3 rounded-full p-1 border border-gray-500 bg-gray-700 object-contain"
+                                src="/Assets/man-02.jpg" alt="">
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="flex flex-col gap-3 w-full">
+                            <div class="flex items-center gap-2">
+                                <i class="fa-solid fa-house text-red-600"></i>
+                                <p class="text-white">Home</p>
+                            </div>
+
+                            <div class="flex items-center gap-2">
+                                <i class="fa-solid fa-bag-shopping text-red-600"></i>
+                                <p class="text-white">Features</p>
+                            </div>
+
+                            <div class="flex items-center gap-2">
+                                <i class="fa-solid fa-layer-group text-red-600"></i>
+                                <p class="text-white">Portfolio</p>
+                            </div>
+
+                            <div class="flex items-center gap-2">
+                                <i class="fa-brands fa-mandalorian text-red-600"></i>
+                                <p class="text-white">Resume</p>
+                            </div>
+
+                            <div class="flex items-center gap-2">
+                                <i class="fa-brands fa-mandalorian text-red-600"></i>
+                                <p class="text-white">Client</p>
+                            </div>
+
+                            <div class="flex items-center gap-2">
+                                <i class="fa-brands fa-shopify text-red-600"></i>
+                                <p class="text-white">Pricing</p>
+                            </div>
+
+                            <div class="flex items-center gap-2">
+                                <i class="fa-solid fa-image text-red-600"></i>
+                                <p class="text-white">Blog</p>
+                            </div>
+
+                            <div class="flex items-center gap-2">
+                                <i class="fa-solid fa-comment text-red-600"></i>
+                                <p class="text-white">Content</p>
+                            </div>
+                        </div>
+
+                        <h1 class="border border-gray-400 w-full mt-4"></h1>
+
+                        <div class="mt-3 text-center">
+                            <h3 class="text-white text-sm mb-3">Find With Me</h3>
+                            <div class="flex gap-3 justify-center">
+                                <i
+                                    class="text-white fa-brands fa-facebook transition-transform duration-500 ease-in-out hover:scale-150"></i>
+                                <i
+                                    class="text-white fa-brands fa-twitter transition-transform duration-500 ease-in-out hover:scale-150"></i>
+                                <i
+                                    class="text-white fa-brands fa-instagram transition-transform duration-500 ease-in-out hover:scale-150"></i>
+                                <i
+                                    class="text-white fa-brands fa-linkedin transition-transform duration-500 ease-in-out hover:scale-150"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Middle Part -->
+                    <div class="flex flex-col lg:flex-row items-center justify-between bg-[#060606] p-2 gap-6 w-full">
+                        <div class="text-center sm:text-left lg:text-left">
+                            <h3 class="font-semibold text-xl text-white">Hello</h3>
+                            <h1 class="font-bold text-3xl sm:text-4xl lg:text-5xl text-white">
+                                i’m Jane Cooper A UI/UX Designer <span class="text-[#FF014F]">Content Writer</span>
+                            </h1>
+                            <p class="text-sm text-gray-400 leading-relaxed mt-3">
+                                A personal portfolio is a collection of your work, achievements, and skills that
+                                highlights your
+                                abilities and professional growth. It serves as
+                            </p>
+                            <div
+                                class="flex items-center justify-center lg:justify-start gap-2 bg-[#FF014F] py-1 px-4 rounded-full w-fit mt-3 transition-transform duration-500 ease-in-out hover:scale-110 hover:cursor-pointer">
+                                <button class="text-white">View Portfolio</button>
+                                <i class="fa-solid fa-arrow-right text-white"></i>
+                            </div>
+                        </div>
+                        <!-- Right Part -->
+                        <div class="w-full lg:w-96 h-auto relative flex justify-center items-center">
+                            <span
+                                class="absolute text-[2rem] text-white sm:text-[5rem] top-[88px] lg:top-[50px] lg:text-3xl font-bold select-none pointer-events-none">
+                                Web Designer
+                            </span>
+
+                            <img src="Assets/man-01.png" alt="" class="max-w-full h-auto relative z-10">
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Card Section -->
+        <section class="container mx-auto px-4 lg:px-10 bg-[#060606]">
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-3 place-items-center">
+                <div
+                    class="card max-w-[450px] bg-[#212221] border border-b-red-500 border-l-red-500 card-md shadow-sm transition-transform duration-500 ease-in-out hover:scale-105 cursor-pointer">
+                    <div class="card-body">
+                        <h2 class="card-title text-white">0.1 Success Architects</h2>
+                        <p class="text-gray-400 leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Error ipsam
+                            nam quidem blanditiis velit nulla.</p>
+                        <div class="justify-end card-actions">
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="card max-w-[450px] bg-[#212221] border border-b-red-500 border-l-red-500 card-md shadow-sm transition-transform duration-500 ease-in-out hover:scale-105 cursor-pointer">
+                    <div class="card-body">
+                        <h2 class="card-title text-white">0.2 Success Architects</h2>
+                        <p class="text-gray-400 leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Error ipsam
+                            nam quidem blanditiis velit nulla.</p>
+                        <div class="justify-end card-actions">
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="card max-w-[450px] bg-[#212221] border border-b-red-500 border-l-red-500 card-md shadow-sm transition-transform duration-500 ease-in-out hover:scale-105 cursor-pointer">
+                    <div class="card-body">
+                        <h2 class="card-title text-white">0.3 UI/UX Designer</h2>
+                        <p class="text-gray-400 leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Error ipsam
+                            nam quidem blanditiis velit nulla.</p>
+                        <div class="justify-end card-actions">
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="card max-w-[450px] bg-[#212221] border border-b-red-500 border-l-red-500 card-md shadow-sm transition-transform duration-500 ease-in-out hover:scale-105 cursor-pointer">
+                    <div class="card-body">
+                        <h2 class="card-title text-white">0.4 Motion Designer</h2>
+                        <p class="text-gray-400 leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Error ipsam
+                            nam quidem blanditiis velit nulla.</p>
+                        <div class="justify-end card-actions">
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="card max-w-[450px] bg-[#212221] border border-b-red-500 border-l-red-500  card-md shadow-sm transition-transform duration-500 ease-in-out hover:scale-105 cursor-pointer">
+                    <div class="card-body">
+                        <h2 class="card-title text-white">0.5 Branding Designer</h2>
+                        <p class="text-gray-400 leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Error ipsam
+                            nam quidem blanditiis velit nulla.</p>
+                        <div class="justify-end card-actions">
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="card max-w-[450px] bg-[#212221] border border-b-red-500 border-l-red-500 card-md shadow-sm transition-transform duration-500 ease-in-out hover:scale-105 cursor-pointer">
+                    <div class="card-body">
+                        <h2 class="card-title text-white">0.6 Success Architects</h2>
+                        <p class="text-gray-400 leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Error ipsam
+                            nam quidem blanditiis velit nulla.</p>
+                        <div class="justify-end card-actions">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Latest Portfolio section -->
+        <section class="container mx-auto px-4 lg:px-10 py-8 bg-[#060606]">
+            <div>
+                <div class="place-items-center text-left">
+                    <h3 class="Rubiko text-xl font-semibold text-[#FF014F]">LATEST PORTFOLIO</h3>
+                    <h1 class="text-5xl font-bold text-white">Transforming Ideas into Exceptional</h1>
+                    <p class="text-sm text-gray-500 font-semibold leading-relaxed">Business consulting consultants
+                        provide expert advice
+                        and guida
+                        businesses to help <br> them improve their performance, efficiency, and organizational</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Four Card Section -->
+        <section class="container mx-auto px-4 lg:px-10 py-8 bg-[#060606]">
+
+            <div class="flex flex-col lg:flex-row  justify-center items-start gap-10">
+                <!-- Card-1 -->
+                <div
+                    class="relative flex-1 bg-gradient-to-b from-neutral-900 to-black rounded-2xl shadow-[0_0_30px_rgba(255,20,147,0.3)] p-8 max-w-md text-white overflow-hidden">
+                    <div class="absolute top-0 right-0 w-40 h-40  rounded-full blur-3xl"></div>
+                    <div class="w-full h-64 bg-neutral-800 rounded-xl flex items-center justify-center mb-6">
+                        <img src="/Assets/imgi_5_portfoli-img-1.jpg" alt=""
+                            class="w-full h-full object-cover rounded-xl">
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div
+                    class="relative flex-1 bg-gradient-to-b from-neutral-900 to-black rounded-2xl shadow-[0_0_30px_rgba(255,20,147,0.3)] p-8 max-w-md text-white overflow-hidden">
+                    <div class="absolute top-0 right-0 w-40 h-40  rounded-full blur-3xl"></div>
+                    <div class="w-full h-64 bg-neutral-800 rounded-xl flex items-center justify-center mb-6">
+                        <img src="/Assets/imgi_6_portfoli-img-2.jpg" alt=""
+                            class="w-full h-full object-cover rounded-xl">
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col lg:flex-row  justify-center gap-10 mt-6">
+                <div class="flex items-center justify-between flex-1 max-w-md">
+                    <div>
+                        <p
+                            class="relative inline-block text-xl font-medium text-white transition-colors duration-300 hover:text-red-500 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-full hover:after:bg-red-500">
+                            I’ve had the privilege of working with various
+                        </p>
+                        <p class="text-sm text-gray-500 font-semibold">Development Coaches</p>
+                    </div>
+                    <div><i class="fa-solid fa-arrow-up-right-from-square text-white"></i></div>
+                </div>
+                <div class="flex items-center justify-between flex-1 max-w-md">
+                    <div>
+                        <p
+                            class="relative inline-block text-xl font-medium text-white transition-colors duration-300 hover:text-red-500 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-full hover:after:bg-red-500">
+                            In this portfolio, you’ll find a curated selection
+                        </p>
+                        <p class="text-sm text-gray-500 font-semibold">Development App</p>
+                    </div>
+                    <div><i class="fa-solid fa-arrow-up-right-from-square text-white"></i></div>
+                </div>
+            </div>
+
+            <!-- 2nd Card -->
+            <div class="flex flex-col lg:flex-row justify-center items-start gap-10 mt-6">
+                <!-- Card-1 -->
+                <div
+                    class="relative flex-1 bg-gradient-to-b from-neutral-900 to-black rounded-2xl shadow-[0_0_30px_rgba(255,20,147,0.3)] p-8 max-w-md text-white overflow-hidden">
+                    <div class="absolute top-0 right-0 w-40 h-40  rounded-full blur-3xl"></div>
+                    <div class="w-full h-64 bg-neutral-800 rounded-xl flex items-center justify-center mb-6">
+                        <img src="/Assets/imgi_7_portfoli-img-3.jpg" alt=""
+                            class="w-full h-full object-cover rounded-xl">
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div
+                    class="relative flex-1 bg-gradient-to-b from-neutral-900 to-black rounded-2xl shadow-[0_0_30px_rgba(255,20,147,0.3)] p-8 max-w-md text-white overflow-hidden">
+                    <div class="absolute top-0 right-0 w-40 h-40  rounded-full blur-3xl"></div>
+                    <div class="w-full h-64 bg-neutral-800 rounded-xl flex items-center justify-center mb-6">
+                        <img src="/Assets/imgi_8_portfoli-img-4.jpg" alt=""
+                            class="w-full h-full object-cover rounded-xl">
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col lg:flex-row justify-center gap-10 mt-6">
+                <div class="flex items-center justify-between flex-1 max-w-md">
+                    <div>
+                        <p
+                            class="relative inline-block text-xl font-medium text-white transition-colors duration-300 hover:text-red-500 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-full hover:after:bg-red-500">
+                            Digital Transformation Advisors
+                        </p>
+                        <p class="text-sm text-gray-500 font-semibold">Development Coaches</p>
+                    </div>
+                    <div><i class="fa-solid fa-arrow-up-right-from-square text-white"></i></div>
+                </div>
+                <div class="flex items-center justify-between flex-1 max-w-md">
+                    <div>
+                        <p
+                            class="relative inline-block text-xl font-medium text-white transition-colors duration-300 hover:text-red-500 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-full hover:after:bg-red-500">
+                            My work is driven by the belief that thoughtful.
+                        </p>
+                        <p class="text-sm text-gray-500 font-semibold">Development App</p>
+                    </div>
+                    <div><i class="fa-solid fa-arrow-up-right-from-square text-white"></i></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="container mx-auto px-4 lg:px-10 py-8 bg-[#060606]">
+            <div>
+                <div class="place-items-center">
+                    <h3 class="Rubiko text-xl font-semibold text-[#FF014F]">Education & Experience</h3>
+                    <h1 class="text-5xl font-bold text-white">Empowering Creativity through</h1>
+                    <p class="text-sm text-gray-500 font-semibold leading-relaxed">Business consulting consultants
+                        provide expert advice
+                        and guida businesses to help <br> them improve their performance, efficiency, and organizational
+                    </p>
+                </div>
+
+                <div class="flex items-center gap-6 mt-7">
+                    <h1 class="text-white font-bold text-2xl">Education</h1>
+                    <img src="/Assets/imgi_9_custom-line.png" alt="">
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 place-items-center mt-10">
+                    <div
+                        class="card w-full max-w-[450px] bg-[#212221] border border-b-red-500 border-l-red-500 shadow-md transition-transform duration-500 ease-in-out hover:scale-105 cursor-pointer">
+                        <div class="card-body flex flex-col h-full">
+                            <h2 class="card-title text-white">Trainer Marketing</h2>
+                            <h1 class="font-bold text-xl text-white">2005-2009</h1>
+                            <p class="text-gray-400 flex-grow leading-relaxed">
+                                A personal portfolio is a curated collection of an individual's professional work,
+                                showcasing their skills, A personal portfolio.
+                            </p>
+                            <div class="card-actions justify-end mt-auto">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div
+                        class="card w-full max-w-[450px] bg-[#212221] border border-b-red-500 border-l-red-500 shadow-md transition-transform duration-500 ease-in-out hover:scale-105 cursor-pointer">
+                        <div class="card-body flex flex-col h-full">
+                            <h2 class="card-title text-white">Assistant Director</h2>
+                            <h1 class="font-bold text-xl text-white">2010-2014</h1>
+                            <p class="text-gray-400 flex-grow leading-relaxed">
+                                Each project here showcases my commitment to excellence and adaptability, tailored to
+                                meet each client’s unique needs.
+                            </p>
+                            <div class="card-actions justify-end mt-auto">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div
+                        class="card w-full max-w-[450px] bg-[#212221] border border-b-red-500 border-l-red-500 shadow-md transition-transform duration-500 ease-in-out hover:scale-105 cursor-pointer">
+                        <div class="card-body flex flex-col h-full">
+                            <h2 class="card-title text-white">Design Assistant</h2>
+                            <h1 class="font-bold text-xl text-white">2008-2012</h1>
+                            <p class="text-gray-400 flex-grow leading-relaxed">
+                                I’ve had the privilege of working with various clients, from startups to established
+                                companies,
+                                helping bring their visions to life.
+                            </p>
+                            <div class="card-actions justify-end mt-auto">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div
+                        class="card w-full max-w-[450px] bg-[#212221] border border-b-red-500 border-l-red-500 shadow-md transition-transform duration-500 ease-in-out hover:scale-105 cursor-pointer">
+                        <div class="card-body flex flex-col h-full">
+                            <h2 class="card-title text-white">UI/UX Designer</h2>
+                            <h1 class="font-bold text-xl text-white">2008-2012</h1>
+                            <p class="text-gray-400 flex-grow leading-relaxed">
+                                Each project here showcases my commitment to excellence and adaptability,
+                                tailored to meet each client’s unique needs a personal.
+                            </p>
+                            <div class="card-actions justify-end mt-auto">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience section -->
+        <section class="container mx-auto px-4 lg:px-10 py-8 bg-[#060606]">
+            <div class="flex flex-col md:flex-row items-stretch gap-10 justify-between">
+
+                <div class="flex-1 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center gap-6 mb-6">
+                            <h1 class="text-white font-bold text-2xl">Experience</h1>
+                            <img src="/Assets/imgi_9_custom-line.png" alt="">
+                        </div>
+
+                        <div class="mb-10">
+                            <h3 class="text-lg text-[#FF014F] font-semibold">experience</h3>
+                            <h1 class="text-2xl text-white font-bold">Soft Tech (2 Years)</h1>
+                            <h2 class="text-xl text-white mb-6">UI/UX Designer</h2>
+                            <p class="text-sm text-gray-500 leading-relaxed">
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse <br>
+                                cillum desi dolore eu fugiat nulla pariatu Duis aute irure.
+                            </p>
+                        </div>
+
+                        <div>
+                            <h3 class="text-lg text-[#FF014F] font-semibold">experience</h3>
+                            <h1 class="text-2xl text-white font-bold">ModernTech (3 Years)</h1>
+                            <h2 class="text-xl text-white mb-6">App Developer</h2>
+                            <p class="text-sm text-gray-500 leading-relaxed">
+                                In this portfolio, you’ll find a curated selection of projects that <br>
+                                highlight my skills in [Main Areas, e.g., responsive web design.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex-1 flex items-center justify-center">
+                    <img class="w-full h-full max-w-md object-cover rounded-xl" src="/Assets/imgi_10.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog And News Section -->
+        <section class="container mx-auto px-4 lg:px-10 py-8 bg-[#060606]">
+            <div class="text-center mb-10">
+                <h3 class="Rubiko text-xl font-semibold text-[#FF014F]">Blog and News</h3>
+                <h1 class="text-5xl font-bold text-white">
+                    Elevating Personal Branding the <br> through Powerful Portfolios
+                </h1>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div
+                    class="card bg-black shadow border border-gray-700 hover:border-red-700 transition-transform duration-500 ease-out hover:scale-105 flex flex-col">
+                    <figure>
+                        <img class="rounded-lg w-full h-48 object-cover" src="/Assets/laptop-01.jpg" />
+                    </figure>
+                    <div class="card-body flex flex-col justify-between p-4 flex-1">
+                        <h2 class="card-title text-white font-semibold text-lg mb-2">
+                            Let’s bring your ideas to life! Contact me, and let’s
+                        </h2>
+                        <p class="text-white leading-relaxed mt-auto">Read More</p>
+                    </div>
+                </div>
+
+                <div
+                    class="card bg-black shadow border border-gray-700 hover:border-red-700 transition-transform duration-500 ease-out hover:scale-105 flex flex-col">
+                    <figure>
+                        <img class="rounded-lg w-full h-48 object-cover" src="/Assets/laptop-02.jpg" />
+                    </figure>
+                    <div class="card-body flex flex-col justify-between p-4 flex-1">
+                        <h2 class="card-title text-white font-semibold text-lg mb-2">
+                            Inspiring the World, One Project at a Time for the man
+                        </h2>
+                        <p class="text-white leading-relaxed mt-auto">Read More</p>
+                    </div>
+                </div>
+
+                <div
+                    class="card bg-black shadow border border-gray-700 hover:border-red-700 transition-transform duration-500 ease-out hover:scale-105 flex flex-col">
+                    <figure>
+                        <img class="rounded-lg w-full h-48 object-cover" src="/Assets/mobile.jpg" />
+                    </figure>
+                    <div class="card-body flex flex-col justify-between p-4 flex-1">
+                        <h2 class="card-title text-white font-semibold text-lg mb-2">
+                            Each one showcases my approach and dedication man
+                        </h2>
+                        <p class="text-white leading-relaxed mt-auto">Read More</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Price Section -->
+        <section class="container mx-auto lg:px-4 py-12 bg-[#060606]">
+            <div class="flex flex-col lg:flex-row justify-center items-center gap-6">
+
+                <!-- Left Card -->
+                <div
+                    class="flex-1 max-w-xs lg:max-w-sm bg-[#141414] shadow-sm flex flex-col rounded-xl overflow-hidden">
+                    <div class="p-6 flex flex-col flex-1">
+                        <span class="text-white font-semibold">Starter</span>
+                        <div class="flex flex-col justify-between my-2">
+                            <h2 class="text-3xl font-bold text-white">$5.00</h2>
+                            <span class="text-md font-semibold text-white">Per Month</span>
+                        </div>
+                        <ul class="mt-4 flex flex-col gap-2 text-xs">
+                            <li class="flex items-center gap-2 text-white font-semibold text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-red-700" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M5 13l4 4L19 7" />
+                                </svg>
+                                5 Social Media Account
+                            </li>
+                            <li class="flex items-center gap-2 text-white font-semibold text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-red-700" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M5 13l4 4L19 7" />
+                                </svg>
+                                Free Platform Access
+                            </li>
+                            <li class="flex items-center gap-2 text-white font-semibold text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-red-700" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M5 13l4 4L19 7" />
+                                </svg>
+                                24/7 Customer Support
+                            </li>
+                        </ul>
+                        <div class="mt-auto">
+                            <button
+                                class="w-full bg-black rounded-full text-white py-2 mt-6 transition-colors duration-500 hover:bg-[#FF014F]">
+                                Get Started
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Middle Card (Highlighted) -->
+                <div
+                    class="flex-1 max-w-xs lg:max-w-sm bg-[#141414] shadow-xl transform scale-105 flex flex-col rounded-xl overflow-hidden">
+                    <div class="p-6 flex flex-col flex-1">
+                        <span class="text-white font-semibold">Basic</span>
+                        <div class="flex flex-col justify-between my-2">
+                            <h2 class="text-4xl font-bold text-white">$230.00</h2>
+                            <span class="text-md font-semibold text-white">Per Month</span>
+                        </div>
+                        <ul class="mt-4 flex flex-col gap-2 text-xs">
+                            <li class="flex items-center gap-2 text-white font-semibold text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-red-700" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M5 13l4 4L19 7" />
+                                </svg>
+                                5 Social Media Account
+                            </li>
+                            <li class="flex items-center gap-2 text-white font-semibold text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-red-700" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M5 13l4 4L19 7" />
+                                </svg>
+                                Free Platform Access
+                            </li>
+                            <li class="flex items-center gap-2 text-white font-semibold text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-red-700" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M5 13l4 4L19 7" />
+                                </svg>
+                                24/7 Customer Support
+                            </li>
+                            <li class="flex items-center gap-2 text-white font-semibold text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-red-700" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M5 13l4 4L19 7" />
+                                </svg>
+                                Marketing Platform
+                            </li>
+                            <li class="flex items-center gap-2 text-white font-semibold text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-red-700" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M5 13l4 4L19 7" />
+                                </svg>
+                                Life time support
+                            </li>
+                        </ul>
+                        <div class="mt-auto">
+                            <button
+                                class="w-full bg-black rounded-full text-white py-2 mt-6 transition-colors duration-500 hover:bg-[#FF014F]">
+                                Get Started
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Card -->
+                <div
+                    class="flex-1 max-w-xs lg:max-w-sm bg-[#141414] shadow-sm flex flex-col rounded-xl overflow-hidden">
+                    <div class="p-6 flex flex-col flex-1">
+                        <span class="text-white font-semibold">Starter</span>
+                        <div class="flex flex-col justify-between my-2">
+                            <h2 class="text-3xl font-bold text-white">$45.00</h2>
+                            <span class="text-md font-semibold text-white">Per Month</span>
+                        </div>
+                        <ul class="mt-4 flex flex-col gap-2 text-xs">
+                            <li class="flex items-center gap-2 text-white font-semibold text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-red-700" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M5 13l4 4L19 7" />
+                                </svg>
+                                5 Social Media Account
+                            </li>
+                            <li class="flex items-center gap-2 text-white font-semibold text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-red-700" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M5 13l4 4L19 7" />
+                                </svg>
+                                Free Platform Access
+                            </li>
+                            <li class="flex items-center gap-2 text-white font-semibold text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-red-700" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M5 13l4 4L19 7" />
+                                </svg>
+                                24/7 Customer Support
+                            </li>
+                        </ul>
+                        <div class="mt-auto">
+                            <button
+                                class="w-full bg-black rounded-full text-white py-2 mt-6 transition-colors duration-500 hover:bg-[#FF014F]">
+                                Get Started
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- From Section -->
+        <section class="container mx-auto lg:px-10 py-8 bg-[#060606]">
+            <div class="flex flex-col md:flex-row items-stretch gap-10 justify-between bg-[#141414] p-5 rounded-lg">
+                <div class="lg:w-1/2 space-y-4 flex-1 text-center lg:text-left">
+                    <p class="text-red-600 text-sm font-semibold tracking-wider">GET IN TOUCH</p>
+                    <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight text-white">Elevate Your Brand
+                        <br>with Me
+                    </h1>
+                    <p class="text-gray-400 text-sm sm:text-base leading-relaxed">
+                        Build a strong presence and elevate your brand identity. Let's collaborate to bring your vision
+                        to life and achieve measurable results.
+                    </p>
+                </div>
+
+                <div class="lg:w-1/2 w-full flex-1">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <input type="text" placeholder="Your Name"
+                            class="border text-white border-gray-700 py-3 px-4 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#ff014f] transition duration-300 w-full">
+                        <input type="number" placeholder="Phone Number"
+                            class="border text-white border-gray-700 py-3 px-4 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#ff014f] transition duration-300 w-full">
+                        <input type="email" placeholder="Your Email"
+                            class="border text-white border-gray-700 py-3 px-4 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#ff014f] transition duration-300 w-full">
+                        <input type="text" placeholder="Subject"
+                            class="border text-white border-gray-700 py-3 px-4 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#ff014f] transition duration-300 w-full">
+                        <textarea
+                            class="border text-white border-gray-700 py-3 px-4 rounded-lg col-span-1 sm:col-span-2 focus:outline-none focus:ring-2 focus:ring-[#ff014f] transition duration-300 w-full"
+                            placeholder="Your Message" rows="6"></textarea>
+                    </div>
+                    <button
+                        class="bg-[#ff014f] w-full sm:w-auto px-10 py-3 rounded-full mt-6 text-white font-semibold hover:bg-[#e60045] transition duration-300 flex items-center justify-center gap-2">
+                        Appointment Now <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="bg-[#141414] text-white py-10 ">
+        <div class=" w-9/12 m-auto grid grid-cols-1 md:grid-cols-2 space-y-10 lg:grid-cols-3 place-items-center">
+            <div class="space-y-5 ">
+                <img class="w-20" src="/Assets/imgi_2.png" alt="">
+                <h2 class="text-3xl font-semibold">Get Ready <span class="font-extralight">To</span> <span
+                        class="font-extralight">create great</span></h2>
+                <div class="flex items-center border-b w-50 border-gray-600">
+                    <input type="email" placeholder="Email Address"
+                        class=" outline-none px-2 py-1 text-sm border-none font-semibold ">
+                    <i class="fa-regular fa-envelope ml-2"></i>
+                </div>
+            </div>
+
+            <div class="flex flex-col justify-center items-center">
+                <h2 class="font-semibold mb-4">Quick Link</h2>
+                <div class="text-xs space-y-3">
+                    <p
+                        class="relative text-white hover:text-pink-800 transition-colors duration-300 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-full after:scale-x-0 after:origin-left after:h-[2px] after:bg-current after:transition-transform after:duration-500 hover:after:scale-x-100 cursor-pointer">
+                        About Me</p>
+                    <p
+                        class="relative text-white hover:text-pink-800 transition-colors duration-300 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-full after:scale-x-0 after:origin-left after:h-[2px] after:bg-current after:transition-transform after:duration-500 hover:after:scale-x-100 cursor-pointer">
+                        Services</p>
+                    <p
+                        class="relative text-white hover:text-pink-800 transition-colors duration-300 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-full after:scale-x-0 after:origin-left after:h-[2px] after:bg-current after:transition-transform after:duration-500 hover:after:scale-x-100 cursor-pointer">
+                        Contect Me</p>
+                    <p
+                        class="relative text-white hover:text-pink-800 transition-colors duration-300 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-full after:scale-x-0 after:origin-left after:h-[2px] after:bg-current after:transition-transform after:duration-500 hover:after:scale-x-100 cursor-pointer">
+                        Blog Post</p>
+                    <p
+                        class="relative text-white hover:text-pink-800 transition-colors duration-300 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-full after:scale-x-0 after:origin-left after:h-[2px] after:bg-current after:transition-transform after:duration-500 hover:after:scale-x-100 cursor-pointer">
+                        pricing</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col justify-center items-center">
+                <h2 class="font-semibold lg:-mt-12 mb-5">Contact</h2>
+                <div class="flex flex-col items-center justify-center text-xs space-y-3">
+                    <p
+                        class="relative text-white hover:text-pink-800 transition-colors duration-300 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-full after:scale-x-0 after:origin-left after:h-[2px] after:bg-current after:transition-transform after:duration-500 hover:after:scale-x-100 cursor-pointer">
+                        <i class="fa-solid fa-envelope mr-2"></i> example@gmail.com
+                    </p>
+                    <p><i class="fa-solid fa-location-dot mr-2"></i> 3891 Ranchview Dr. Richardson</p>
+                    <p
+                        class="relative text-white hover:text-pink-800 transition-colors duration-300 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-full after:scale-x-0 after:origin-left after:h-[2px] after:bg-current after:transition-transform after:duration-500 hover:after:scale-x-100 cursor-pointer">
+                        <i class="fa-solid fa-phone mr-2"></i> 012345678
+                    </p>
+                    <div class="flex justify-center md:justify-start gap-4 mt-4">
+                        <i
+                            class="text-white fa-brands fa-facebook transition-transform duration-500 ease-in-out hover:scale-150"></i>
+                        <i
+                            class="text-white fa-brands fa-twitter transition-transform duration-500 ease-in-out hover:scale-150"></i>
+                        <i
+                            class="text-white fa-brands fa-instagram transition-transform duration-500 ease-in-out hover:scale-150"></i>
+                        <i
+                            class="text-white fa-brands fa-linkedin transition-transform duration-500 ease-in-out hover:scale-150"></i>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div
+            class=" w-9/12 m-auto text-xs flex flex-wrap space-y-2 justify-between border-t border-gray-600 mt-10 pt-5 ">
+            <p class="text-sm font-semibold">©InversWeb <span class="text-gray-500">2025| All Rights Reserved</span></p>
+            <p class="flex gap-3">
+                <a class="text-sm font-semibold" href="">Trams&Condition</a>
+                <a class="text-sm font-semibold" href="">Privacy Policy</a>
+                <a class="text-sm font-semibold" href="">Contact Us</a>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
